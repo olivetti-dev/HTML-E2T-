@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabajo HTML E2T</title>
+    <link rel="stylesheet" href="CSS/estilos.css">
+</head>
+<body>
+    
+    <header>
+        <h1>Trabajo HTML E2T</h1>
+    </header>
+
+    <nav class="barra-navegacion">
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Acerca de</a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <aside>
+            <h3>Menú</h3>
+            <ul>
+                <li><a href="#intro">1. Introducción</a></li>
+                <li><a href="#titulos">2. Títulos</a></li>
+                <li><a href="#parrafos">3. Párrafos</a></li>
+                <li><a href="#texto">4. Formato texto</a></li>
+                <li><a href="#enlaces">5. Enlaces</a></li>
+                <li><a href="#media">6. Imagen / Audio / Vídeo</a></li>
+                <li><a href="#listas">7. Listas</a></li>
+                <li><a href="#tablas">8. Tablas</a></li>
+            </ul>
+        </aside>
+
+        <div class="contenido">
+
+            <div id="intro">
+                <h2 class="seccion">1. Introducción y estructura básica</h2>
+                <p>Ejemplo de estructura mínima:</p>
+                <pre><code>&lt;!DOCTYPE html&gt;
+&lt;html lang="es"&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;title&gt;Mi Pagina&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    Hola mundo
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+            </div>
+
+            <div id="titulos">
+                <h2 class="seccion">2. Títulos</h2>
+                <h1>h1 - Título principal</h1>
+                <h2>h2 - Subtítulo</h2>
+                <h3>h3</h3>
+                <h4>h4</h4>
+                <h5>h5</h5>
+                <h6>h6 - más pequeño</h6>
+            </div>
+
+            <div id="parrafos">
+                <h2 class="seccion">3. Párrafos, saltos y líneas</h2>
+                <p>Este es un párrafo.</p>
+                <p>Segundo párrafo.<br>Salto con &lt;br&gt;.</p>
+                <p>Una línea horizontal con &lt;hr&gt;.</p>
+                <hr>
+                <pre>  Texto
+     preformateado
+con    espacios</pre>
+            </div>
+
+            <div id="texto">
+                <h2 class="seccion">4. Formato de texto</h2>
+                <p><strong>Negrita strong</strong> y <b>negrita b</b></p>
+                <p><em>cursiva em</em> y <i>cursiva i</i></p>
+                <p><u>subrayado</u></p>
+            </div>
+
+            <div id="enlaces">
+                <h2 class="seccion">5. Enlaces</h2>
+                <p><a href="https://google.com">Enlace externo</a></p>
+                <p><a href="#tablas">Enlace interno a tablas</a></p>
+                <p><a href="mailto:hola@ejemplo.com">Enviar email</a></p>
+            </div>
+
+            <div id="media">
+                <h2 class="seccion">6. Imagen, audio y vídeo</h2>
+                <p>Imagen:</p>
+                <img src="https://picsum.photos/300/180" alt="foto ejemplo" width="300">
+
+                <p>Audio:</p>
+                <audio controls>
+                    <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+                </audio>
+
+                <p>Vídeo:</p>
+                <video width="320" height="180" controls>
+                    <source src="https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" type="video/mp4">
+                </video>
+            </div>
+
+            <div id="listas">
+                <h2 class="seccion">7. Listas</h2>
+                <p>Lista no ordenada:</p>
+                <ul>
+                    <li>Manzana</li>
+                    <li>Pera</li>
+                    <li>Plátano</li>
+                </ul>
+
+                <p>Lista ordenada:</p>
+                <ol>
+                    <li>Paso 1</li>
+                    <li>Paso 2</li>
+                </ol>
+
+                <p>Lista de definición:</p>
+                <dl>
+                    <dt>HTML</dt>
+                    <dd>Lenguaje de marcas</dd>
+                    <dt>CSS</dt>
+                    <dd>Estilos</dd>
+                </dl>
+            </div>
+
+            <div id="tablas">
+                <h2 class="seccion">8. Tablas</h2>
+                <table border="1">
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Edad</th>
+                    </tr>
+                    <tr>
+                        <td>Ana</td>
+                        <td>22</td>
+                    </tr>
+                    <tr>
+                        <td>Luis</td>
+                        <td>31</td>
+                    </tr>
+                </table>
+
+                <p>Con colspan y rowspan:</p>
+                <table border="1">
+                    <tr>
+                        <th>Alumno</th>
+                        <th colspan="2">Notas</th>
+                    </tr>
+                    <tr>
+                        <td rowspan="2">María</td>
+                        <td>7</td>
+                        <td>8</td>
+                    </tr>
+                    <tr>
+                        <td>9</td>
+                        <td>6</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,26 @@
+.meses-form{
+    display: flex;
+    flex-wrap: wrap;           /* se adapta a la ventana */
+    justify-content: center;   /* centrado */
+    gap: 10px;                 /* separación entre botones */
+    padding: 12px;
+    }
+
+.descripcion{
+  max-width: 1300px;
+  margin: 15px auto 25px auto;
+  padding: 15px 18px;
+  background: #f8f9fa;
+  border-left: 6px solid #198754; /* verde bootstrap */
+  border-radius: 10px;
+}
+.descripcion h3{
+  margin: 0 0 8px 0;
+}
+.descripcion p{
+  margin: 0;
+}
+.descripcion p{
+    text-align: center;
+}
+
