@@ -23,4 +23,11 @@
 .descripcion p{
     text-align: center;
 }
+.coach-form{
+    display: flex;
+    flex-wrap: wrap;           /* se adapta a la ventana */
+    justify-content: center;   /* centrado */
+    gap: 10px;                 /* separación entre botones */
+    padding: 50px;
+    }
 
