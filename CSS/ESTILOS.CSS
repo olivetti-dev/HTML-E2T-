@@ -31,6 +31,60 @@
     padding: 50px;
     }
 
+<<<<<<< HEAD
+.titulo-principal {
+  max-width: 1200px;
+            margin: 15 auto 25px auto;
+            padding: 15px 18px;
+            background: #f8f9fa;
+            border-left: 6px solid#198754;
+            border-radius: 10px;
+            justify-content: center;
+}
+
+.titulo-secundario {
+    color: rgb(18, 18, 101);
+    display: flex;
+    justify-content: center;
+}
+
+.colocacionenlace {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+.diseñoboton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 70px;
+    background-color: beige;
+    color: rgb(0, 0, 0);
+    border: 4px solid rgb(56, 188, 91);
+    text-decoration: none;
+    border-radius: 10px;
+    
+    
+        }
+
+        .imagen-centro {
+  display: block;
+  margin: 50px auto;
+  width: 70px;
+        }
+
+.texto {max-width: 1200px;
+        margin: 15 auto 25px auto;
+        padding: 15px 18px;
+        background: #f8f9fa;
+        border-left: 6px solid#198754;
+        border-radius: 10px;
+        justify-content: center;
+        }
+=======
 .coaches{
   display: flex;
   flex-wrap: wrap;
@@ -46,13 +100,17 @@
 }
 
 .coach-foto{
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
   border-radius: 70%;     /* redonda */
   object-fit: cover;      /* recorta sin deformar */
   border: 3px solid #198754; /* verde bootstrap */
 }
+<<<<<<< HEAD
 
 a {
   color: white; 
 }
+=======
+>>>>>>> 354d8074eb0aae57d3a238a3780132a9a6b64e98
+>>>>>>> 1a1bd9d13c28c89a7a075cf3f4c7ddc95f41cda7
